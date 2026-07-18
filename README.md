@@ -64,7 +64,7 @@ I build machine learning systems that solve real problems. My approach: deep und
 
 ## 📈 Experience
 
-**AI Agent Development Intern** — Suresh Dani Classes (Feb–Jun 2026)
+**AI Agent Development Intern** — Suresh Dani Classes (Feb–July 2026)
 - Engineered semantic retrieval pipeline (RAG-based LLM)
 - 70% reduction in manual assessment time
 - FastAPI on Railway, sub-500ms inference
@@ -75,7 +75,7 @@ I build machine learning systems that solve real problems. My approach: deep und
 - Built AI-powered session summarization
 
 **Class Representative** — TCET Mumbai (2022–2026, 4 years)
-- Led 60+ engineering students
+- Led 30+ engineering students
 - Organized academic events & logistics
 
 **Chief Editor** — TCET Branch Magazine (2024–2025)
