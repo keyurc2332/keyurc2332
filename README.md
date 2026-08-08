@@ -17,7 +17,7 @@ I build machine learning systems that solve real problems. My approach: deep und
 - 🎓 **Dean's Scholar** – CGPA 9.5/10
 - 🤖 **9 End-to-End AI/ML Systems** – From conception to production
 - 📊 **596K+ Sensor Records Analyzed** – Caught a faulty CPCB rainfall sensor across 453 stations
-- 💼 **AI Agent Development Intern** – Suresh Dani Classes (Feb–Jun 2026)
+- 💼 **AI Agent Development Intern** – Suresh Dani Classes (Feb–July 2026)
 - 🔬 **Research Intern** – Wadhwani Foundation (Sep–Dec 2025)
 
 ---
