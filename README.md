@@ -4,64 +4,71 @@
 
 I build machine learning systems that solve real problems. My approach: deep understanding of data → rigorous validation → systems people can actually trust. I believe honest metrics matter more than impressive benchmarks.
 
-[🌐 Portfolio](https://keyurchauhan.vercel.app) • 
+[🌐 Portfolio](https://keyurchauhan.vercel.app) •
 [📄 Resume](https://keyurchauhan.vercel.app/KeyurChauhan_Resume.pdf) •
-[💼 LinkedIn](https://linkedin.com/in/keyur-chauhan-) • 
+[💼 LinkedIn](https://linkedin.com/in/keyur-chauhan-) •
 [📧 Email](mailto:keyurchauhan15@gmail.com)
 
 ---
 
 ## 🏅 Featured Achievements
 
-- 🏆 **Best Paper Award** – MULTICON-W 2025 (Smart Helmet for Accident Detection)
-- 🎓 **Dean's Scholar** – CGPA 9.5/10
-- 🤖 **9 End-to-End AI/ML Systems** – From conception to production
-- 📊 **596K+ Sensor Records Analyzed** – Caught a faulty CPCB rainfall sensor across 453 stations
-- 💼 **AI Agent Development Intern** – Suresh Dani Classes (Feb–July 2026)
-- 🔬 **Research Intern** – Wadhwani Foundation (Sep–Dec 2025)
+- 🏆 **Best Paper Award** — MULTICON-W 2025
+- 🎓 **Dean's Scholar** — CGPA 9.5/10
+- 🤖 **9 End-to-End AI/ML Systems** — From conception to production
+- 📊 **596K+ Environmental Records Analyzed** — Across 453 CPCB stations; identified a faulty rainfall sensor
+- 💼 **AI Agent Development Intern** — Suresh Dani Classes (Feb–July 2026)
+- 🔬 **Research Intern** — Wadhwani Foundation (Sep–Dec 2025)
 
 ---
 
 ## 🎯 Currently Building
 
-- Production ML systems with FastAPI, PostgreSQL & Docker
-- LLM agents with grounding/claim verification, not just chat wrappers
-- MLOps & automated deployment pipelines (Airflow, GitHub Actions)
-- Explainable AI (SHAP, model interpretation)
-- Open to **AI/ML Engineer** roles · Class of 2026
+- Production ML systems with **FastAPI, PostgreSQL & Docker**
+- LLM agents with **grounding and claim verification**, not just chat wrappers
+- MLOps & automated deployment pipelines with **Airflow & GitHub Actions**
+- Explainable AI using **SHAP and model interpretation**
+- Open to **AI/ML Engineer & Data Science roles** · 2026 Graduate
 
 ---
 
 ## 📊 Latest Projects
 
 **1. [MarketIQ](https://github.com/keyurc2332/AI-Finance-Agent)** — Bitemporal financial platform with a self-verifying AI analyst
-   - On its first live run, its own quality gate caught a bug I'd just shipped: a fabricated 9751% price move traced to two securities silently sharing one DB row
-   - AI claim verification: every numeric answer tagged supported / derived / contradicted / unsupported against real tool evidence
-   - 460 automated tests, CI-gated on every push
+
+- On its first live run, its own quality gate caught a bug I'd just shipped: a fabricated **9751% price move** traced to two securities silently sharing one database row
+- AI claim verification tags every numeric answer as **supported / derived / contradicted / unsupported** against real tool evidence
+- **460 automated tests**, CI-gated on every push
 
 **2. [ChessIQ](https://github.com/keyurc2332/ChessIQ)** — Chess outcome prediction, and the leaks that faked it
-   - Found and fixed 3 data leaks (post-game engine metrics, post-game Elo written into "pre-game" features, mislabeled target)
-   - Honest result: **AUC 0.5001 — exactly chance**, down from an inflated 78.21%
-   - The leak-hunting process is the actual deliverable, not the model
 
-**3. [CivicLens](https://github.com/keyurc2332/civiclens)** — Road accident risk for Indian cities
-   - 596K+ environmental records across 453 CPCB stations, layered Postgres warehouse
-   - 3×3 ablation study: honestly reports that environmental signal is real but secondary to accident history
-   - Caught a faulty rainfall sensor (station TN004) via anomaly detection during the build
+- Found and fixed **3 data leaks**: post-game engine metrics, post-game Elo written into "pre-game" features, and a mislabeled target
+- After removing the leaks: **AUC 0.5001 — essentially chance**, exposing the previously inflated **78.21% result**
+- The leak-hunting and validation process became the actual deliverable—not the model
 
-**4. [Autonomous Data Analyst](https://github.com/keyurc2332/Autonomous-Data-Analyst)** — Agentic CSV analyst (LangGraph)
-   - Cleans, profiles, models, and explains any CSV — and says so when the data can't support the question
-   - Caught 5 classes of silent leakage/failure across 9 public datasets (e.g. Titanic's `alive`/`survived` duplication)
-   - 214 automated tests, zero network calls required to pass them
+**3. [CivicLens](https://github.com/keyurc2332/civiclens)** — Road accident risk intelligence for Indian cities
 
-**5. [Smart Helmet IoT](https://github.com/keyurc2332/smart-helmet)** — Real-time accident detection
-   - 🏆 **Best Paper Award — MULTICON-W 2025**
-   - 94% fall-detection accuracy, Pushbullet + GSM SMS emergency alerts with live GPS
+- **596K+ environmental records** across 453 CPCB stations, organized in a layered PostgreSQL warehouse
+- **3×3 ablation study** showed environmental signal is real but secondary to accident history
+- Anomaly detection identified a faulty rainfall sensor (**TN004**) during the build
 
-**6. [IPL 2026 Prediction](https://github.com/keyurc2332/ipl-2026-prediction)** — Cricket season simulator
-   - 1,175 matches / 279K deliveries (2008–2026), 49 engineered features, XGBoost + LR + RF ensemble
-   - Walk-forward accuracy 52–55%, reported as the honest ceiling for T20 prediction from public data
-   - 2,000-run Monte Carlo simulation → RCB favored at 25.4% to win 2026
+**4. [Autonomous Data Analyst](https://github.com/keyurc2332/Autonomous-Data-Analyst)** — Agentic CSV analyst built with LangGraph
+
+- Cleans, profiles, models, and explains CSV datasets—and explicitly says when the data cannot support the question
+- Caught **5 classes of silent leakage/failure** across 9 public datasets, including Titanic's `alive`/`survived` duplication
+- **214 automated tests**, with zero network calls required to pass them
+
+**5. [Smart Helmet IoT](https://github.com/keyurc2332/smart-helmet)** — Real-time accident detection system
+
+- 🏆 **Best Paper Award — MULTICON-W 2025**
+- **94% fall-detection accuracy** with Pushbullet + GSM emergency alerts and live GPS
+
+**6. [IPL 2026 Prediction](https://github.com/keyurc2332/ipl-2026-prediction)** — Cricket season prediction & simulation
+
+- **1,175 matches / 279K deliveries** from 2008–2026 with 49 engineered features
+- XGBoost + Logistic Regression + Random Forest ensemble with **52–55% walk-forward accuracy**
+- Reported the result as the realistic prediction ceiling for T20 outcomes from public data
+- **2,000-run Monte Carlo simulation** → RCB favored at **25.4%** to win IPL 2026
 
 ---
 
@@ -71,55 +78,69 @@ I build machine learning systems that solve real problems. My approach: deep und
 
 **Machine Learning:** XGBoost, scikit-learn, PyTorch, SHAP, Ensemble Learning
 
-**Agentic AI:** LangGraph, Gemini, Claim/grounding verification
+**Agentic AI:** LangGraph, Gemini, RAG, Claim & Grounding Verification
 
 **Backend & APIs:** FastAPI, Flask, PostgreSQL, SQLAlchemy, Docker
 
-**Orchestration & Cloud:** Apache Airflow, GitHub Actions, Google Cloud Run, Railway, AWS SageMaker
+**MLOps & Cloud:** Apache Airflow, GitHub Actions, Google Cloud Run, Railway, AWS SageMaker
 
-**Data Tools:** Pandas, NumPy, Plotly, Streamlit
+**Data & Visualization:** Pandas, NumPy, Plotly, Streamlit
 
-**Hardware & IoT:** ESP32, ESP8266, Arduino, MPU6050, Neo GPS
+**Hardware & IoT:** ESP32, ESP8266, Arduino, MPU6050, NEO-6M GPS
 
 ---
 
 ## 📈 Experience
 
-**AI Agent Development Intern** — Suresh Dani Classes (Feb–Jun 2026)
-- Engineered semantic retrieval pipeline (RAG-based LLM)
-- 70% reduction in manual assessment time at 95%+ prediction consistency
-- FastAPI on Railway, sub-500ms inference across 500+ profiles
+### **AI Agent Development Intern — Suresh Dani Classes**
+*Feb–July 2026*
 
-**Research Intern** — Wadhwani Foundation (Sep–Dec 2025)
-- Analyzed 10,000+ entrepreneurial records with Pandas/NumPy
-- Surfaced 12+ market trends
-- Lifted data quality from 62% → 88%
-- Built AI-powered session summarization, cutting analysis time by 60%
-- Authored 15+ quarterly research reports
+- Engineered a semantic retrieval pipeline for RAG-based LLM applications
+- Reduced manual assessment time by **70%** while maintaining **95%+ prediction consistency**
+- Deployed FastAPI inference on Railway with **sub-500ms latency** across 500+ profiles
 
-**Class Representative** — TCET Mumbai (2022–2026, 4 years)
-- Led 60+ engineering students; consistent bridge between students and faculty
+### **Research Intern — Wadhwani Foundation**
+*Sep–Dec 2025*
 
-**Chief Editor** — TCET Branch Magazine (2024–2025)
-- Managed 40+ contributors, published 100+ page quarterly issues
+- Analyzed **10,000+ entrepreneurial records** using Pandas and NumPy
+- Surfaced **12+ market trends** through structured data analysis
+- Improved data quality from **62% → 88%**
+- Built AI-powered session summarization, reducing analysis time by **60%**
+- Authored **15+ quarterly research reports**
+
+### **Class Representative — TCET Mumbai**
+*2022–2026*
+
+- Represented and coordinated **60+ engineering students**, serving as a consistent bridge between students and faculty
+
+### **Chief Editor — TCET Branch Magazine**
+*2024–2025*
+
+- Managed **40+ contributors** and coordinated publication of **100+ page** quarterly issues
 
 ---
 
 ## 📚 Research & Publications
 
-**Smart Helmet for Real-Time Accident Detection and Emergency Alert System**
-- MULTICON-W 2025 (16th International & National Conferences and Workshops)
-- 🏆 Best Paper Award
-- Focus: MPU6050-based fall detection with GPS + Pushbullet/GSM emergency alerting
+### **Smart Helmet for Real-Time Accident Detection and Emergency Alert System**
+
+**MULTICON-W 2025 — 16th International & National Conferences and Workshops**
+
+🏆 **Best Paper Award**
+
+- MPU6050-based fall detection with GPS location tracking
+- Pushbullet and GSM-based emergency alerting
+- Real-time accident detection and notification architecture
 
 ---
 
 ## 🎓 Education
 
 **B.Tech in Internet of Things** — Thakur College of Engineering & Technology
-- Expected Graduation: June 2026
-- CGPA: 9.5/10 · Dean's Scholar
-- Best Paper Award: Smart Helmet for Accident Detection (MULTICON-W 2025)
+
+- **Graduated: June 2026**
+- **CGPA: 9.5/10 · Dean's Scholar**
+- Best Paper Award — Smart Helmet for Accident Detection, MULTICON-W 2025
 
 ---
 
@@ -133,18 +154,18 @@ I build machine learning systems that solve real problems. My approach: deep und
 
 ## 🛠️ What I Believe
 
-✅ **Honest > Impressive** — Real metrics over inflated benchmarks
-✅ **Feature engineering > Fancy models** — 80% of ML is data prep
-✅ **Understanding > Optimization** — Know your data first
-✅ **Systems > Notebooks** — Deploy with validation, monitoring, alerts
-✅ **Validation is non-negotiable** — Catch leakage, report true accuracy
+- ✅ **Honest > Impressive** — Report real metrics, even when they hurt
+- ✅ **Data > Fancy Models** — Better data beats unnecessary complexity
+- ✅ **Understanding > Optimization** — Know why the system behaves the way it does
+- ✅ **Systems > Notebooks** — Build for deployment, validation, and monitoring
+- ✅ **Validation is non-negotiable** — Find leakage, test assumptions, report reality
 
 ---
 
 ## 📍 Let's Connect
 
-Email me: [keyurchauhan15@gmail.com](mailto:keyurchauhan15@gmail.com) — open to AI/ML engineering roles, data science opportunities, collaborative research.
+[📧 keyurchauhan15@gmail.com](mailto:keyurchauhan15@gmail.com) — open to **AI/ML engineering roles, data science opportunities, and collaborative research**.
 
 ---
 
-*"The difference between a model and a system is discipline: validation strategy, honest reporting, systems people can actually trust."*
+> *"The difference between a model and a system is discipline: validation strategy, honest reporting, and systems people can actually trust."*
