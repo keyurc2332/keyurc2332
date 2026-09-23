@@ -1,6 +1,6 @@
 # Keyur Chauhan
 
-**Research Engineer @ Provue • ML • Data Science • Building systems, not just models**
+**Research Engineer @Provue • ML • Data Science • Building systems, not just models**
 
 I build machine learning systems that solve real problems. My approach: deep understanding of data → rigorous validation → systems people can actually trust. I believe honest metrics matter more than impressive benchmarks.
 
